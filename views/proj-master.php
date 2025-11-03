@@ -74,7 +74,7 @@ if ((!isset($demolink))) $demolink="#";
                         <hr class="divider" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5"><?php echo $descriere_about;?></p>
+                        <p class="text-white-75 mb-5" ><?php echo $descriere_about;?></p>
                          <div class="d-flex justify-content-center">
                         <a class="btn btn-primary btn-xl" href="#aboutProject">Detalii proiect</a>
                         <a class="btn btn-dark btn-xl mx-lg-2" href="<?php echo $demolink;?>">Demo</a>
@@ -90,7 +90,7 @@ if ((!isset($demolink))) $demolink="#";
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">Check it out!</h2>
                         <hr class="divider divider-light" />
-                        <p class="text-white-75 mb-4"><?php echo $descriere_detaliata_proiect;?></p>
+                        <p class="text-white-75 mb-4" style="text-align:justify;text-indent:20px;"><?php echo $descriere_detaliata_proiect;?></p>
                         <a class="btn btn-light btn-xl" href="#portfolio">Imagini proiect</a>
                     </div>
                 </div>
