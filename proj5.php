@@ -1,5 +1,5 @@
 <?php
-$i=5;
+$i=5;//proj id
 $titlu="Agenda C#";//se fol in title si in #abouProject
 $demolink="#";
 $descriere_about="Realizat cu C# si baza de date SQLITE.";//se fol in sectiunea descriere adica #aboutProject

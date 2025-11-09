@@ -45,7 +45,7 @@ if ((!isset($demolink))) $demolink="#";
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles1.css" rel="stylesheet" />
         <!-- extra css-->
-        <link href="css/styles2.css?v=3" rel="stylesheet" />
+        <link href="css/styles2.css?v=<?php echo time();?>" rel="stylesheet" />
        
     </head>
     <body id="page-top">
@@ -77,7 +77,7 @@ if ((!isset($demolink))) $demolink="#";
                         <p class="text-white-75 mb-5" ><?php echo $descriere_about;?></p>
                          <div class="d-flex justify-content-center">
                         <a class="btn btn-primary btn-xl" href="#aboutProject">Detalii proiect</a>
-                        <a class="btn btn-dark btn-xl mx-lg-2" href="<?php echo $demolink;?>">Demo</a>
+                        <a class="btn <?php if ($demolink=="#") echo "btn-dark2"; else echo "btn-dark"; ?> btn-xl mx-lg-2" href="<?php echo $demolink;?>">Demo</a>
                         </div>
                     </div>
                 </div>
